@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    li{list-style: none; margin : 10px 0};
+  </style>
+  <title>화면 구현</title>
+</head>
+<body>
+  <div class="container">
+    <h1 id="title">투두리스트</h1>
+    <form action="" id="todo_form">
+      <input type="text" id="todo_input" placeholder="할일을 입력해주세요." required>
+      <input type="submit" value="+" id="todo_btn">
+      <ul id="todo_list">
+
+      </ul>
+      <p>오늘 완료한 할일 : <span id="complete_count">0</span>개</p>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
